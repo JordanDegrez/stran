@@ -1,0 +1,39 @@
+@media (max-width:1480px){
+
+}
+
+@media (max-width:1280px){
+
+}
+
+@media (max-width:1024px){
+
+}
+
+@media (max-width:960px){
+
+}
+
+@media (max-width: 730px){
+
+}
+
+@media (max-width:460px){
+    /**menu top**/
+    #menu-top{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: brown;
+        padding: 20px;
+    }
+    #menu-top ul{
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    #menu-top a{
+        text-decoration: none;
+        color: var(--blanc);
+    }
+}
