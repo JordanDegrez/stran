@@ -42,11 +42,11 @@ body, header{
     background-position: center;
     background-size: 20px;
 }
-#home{background-image: url(./elements/medias/picto-accueil.svg);}
-#heure{background-image: url(./elements/medias/picto-horaires.svg);}
-#itineraire{background-image: url(./elements/medias/picto-itineraire.svg);}
-#ticket{background-image: url(./elements/medias/picto-tickets.svg);}
-#profil{background-image: url(./elements/medias/picto-profil.svg);}
+#home{background-image: url(/elements/medias/picto-accueil.svg);}
+#heure{background-image: url(/elements/medias/picto-horaires.svg);}
+#itineraire{background-image: url(/elements/medias/picto-itineraire.svg);}
+#ticket{background-image: url(/elements/medias/picto-tickets.svg);}
+#profil{background-image: url(/elements/medias/picto-profil.svg);}
 #menu-top a{
     font-family: 'Inter-medium';
     font-size: 12px;
@@ -58,8 +58,8 @@ body, header{
 #menu-top a:hover{
     color: var(--bleu);
 }
-#menu-top a:hover #home{background-image: url(./elements/medias/picto-accueil-actif.svg);}
-#menu-top a:hover #heure{background-image: url(./elements/medias/picto-horaires-actif.svg);}
-#menu-top a:hover #itineraire{background-image: url(./elements/medias/picto-itineraire-actif.svg);}
-#menu-top a:hover #ticket{background-image: url(./elements/medias/picto-tickets-actif.svg);}
-#menu-top a:hover #profil{background-image: url(./elements/medias/picto-profil-actif.svg);}
+#menu-top a:hover #home{background-image: url(/elements/medias/picto-accueil-actif.svg);}
+#menu-top a:hover #heure{background-image: url(/elements/medias/picto-horaires-actif.svg);}
+#menu-top a:hover #itineraire{background-image: url(/elements/medias/picto-itineraire-actif.svg);}
+#menu-top a:hover #ticket{background-image: url(/elements/medias/picto-tickets-actif.svg);}
+#menu-top a:hover #profil{background-image: url(/elements/medias/picto-profil-actif.svg);}
