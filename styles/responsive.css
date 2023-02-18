@@ -23,17 +23,30 @@
     #menu-top{
         position: fixed;
         bottom: 0;
+        background-color: var(--blanc);
         width: 100%;
-        background-color: brown;
-        padding: 20px;
+        display: flex;
+        justify-content: center;
+        background: rgba(255, 255, 255, 0.1);
+        box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
     }
     #menu-top ul{
         display: flex;
+        padding: 5px;
+        margin: 0px;
+        width: 100%;
         list-style-type: none;
-        justify-content: space-between;
+        justify-content: space-around;
     }
     #menu-top a{
+        font-family: 'Inter-medium';
+        font-size: 12px;
         text-decoration: none;
-        color: var(--blanc);
+        display: block;
+        color: var(--gris);
+        padding: 20px 0;
+    }
+    #menu-top a:hover{
+        color: var(--noir);
     }
 }

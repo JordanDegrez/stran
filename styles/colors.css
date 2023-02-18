@@ -1,6 +1,7 @@
 :root{
-    --color-orange: #F37021;
-    --color-bleu : #75BEE9;
-    --noir: #000;
+    --orange: #F37021;
+    --bleu : #75BEE9;
+    --noir: #0F0F0F;
     --blanc: #fff;
+    --gris: #A8A6AE;
 }

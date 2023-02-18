@@ -1,6 +1,5 @@
 *{
-    font-family: 'Raleway-regular';
-    font-size: 1rem;
+    font-family: 'Inter-regular';
     line-height: 1;
 }
 body, header{
@@ -11,3 +10,56 @@ body, header{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+/**menu top**/
+#menu-top{
+    position: fixed;
+    bottom: 0;
+    background-color: var(--blanc);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.1);
+}
+#menu-top ul{
+    display: flex;
+    padding: 5px;
+    margin: 0px;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+}
+#menu-top a span{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    height: 20px;
+    padding: 10px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+#home{background-image: url(/elements/medias/picto-accueil.svg);}
+#heure{background-image: url(/elements/medias/picto-horaires.svg);}
+#itineraire{background-image: url(/elements/medias/picto-itineraire.svg);}
+#ticket{background-image: url(/elements/medias/picto-tickets.svg);}
+#profil{background-image: url(/elements/medias/picto-profil.svg);}
+#menu-top a{
+    font-family: 'Inter-medium';
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    color: var(--gris);
+    padding: 20px 0;
+}
+#menu-top a:hover{
+    color: var(--bleu);
+}
+#menu-top a:hover #home{background-image: url(/elements/medias/picto-accueil-actif.svg);}
+#menu-top a:hover #heure{background-image: url(/elements/medias/picto-horaires-actif.svg);}
+#menu-top a:hover #itineraire{background-image: url(/elements/medias/picto-itineraire-actif.svg);}
+#menu-top a:hover #ticket{background-image: url(/elements/medias/picto-tickets-actif.svg);}
+#menu-top a:hover #profil{background-image: url(/elements/medias/picto-profil-actif.svg);}
